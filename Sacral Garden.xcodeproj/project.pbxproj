@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64982BA41CA6ECFB006C4E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982BA31CA6ECFB006C4E7A /* AppDelegate.swift */; };
+		64982BA61CA6ECFC006C4E7A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64982BA51CA6ECFC006C4E7A /* GameScene.sks */; };
+		64982BA81CA6ECFC006C4E7A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982BA71CA6ECFC006C4E7A /* GameScene.swift */; };
+		64982BAA1CA6ECFC006C4E7A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982BA91CA6ECFC006C4E7A /* GameViewController.swift */; };
+		64982BAD1CA6ECFC006C4E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64982BAB1CA6ECFC006C4E7A /* Main.storyboard */; };
+		64982BAF1CA6ECFC006C4E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64982BAE1CA6ECFC006C4E7A /* Assets.xcassets */; };
+		64982BB21CA6ECFC006C4E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64982BB01CA6ECFC006C4E7A /* LaunchScreen.storyboard */; };
+		64982BBD1CA6ECFC006C4E7A /* Sacral_GardenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982BBC1CA6ECFC006C4E7A /* Sacral_GardenTests.swift */; };
+		64982BC81CA6ECFC006C4E7A /* Sacral_GardenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982BC71CA6ECFC006C4E7A /* Sacral_GardenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64982BB91CA6ECFC006C4E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64982B981CA6ECFB006C4E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64982B9F1CA6ECFB006C4E7A;
+			remoteInfo = "Sacral Garden";
+		};
+		64982BC41CA6ECFC006C4E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64982B981CA6ECFB006C4E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64982B9F1CA6ECFB006C4E7A;
+			remoteInfo = "Sacral Garden";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64982BA01CA6ECFB006C4E7A /* Sacral Garden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sacral Garden.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64982BA31CA6ECFB006C4E7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64982BA51CA6ECFC006C4E7A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		64982BA71CA6ECFC006C4E7A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		64982BA91CA6ECFC006C4E7A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		64982BAC1CA6ECFC006C4E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64982BAE1CA6ECFC006C4E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64982BB11CA6ECFC006C4E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64982BB31CA6ECFC006C4E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64982BB81CA6ECFC006C4E7A /* Sacral GardenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sacral GardenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64982BBC1CA6ECFC006C4E7A /* Sacral_GardenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sacral_GardenTests.swift; sourceTree = "<group>"; };
+		64982BBE1CA6ECFC006C4E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64982BC31CA6ECFC006C4E7A /* Sacral GardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sacral GardenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64982BC71CA6ECFC006C4E7A /* Sacral_GardenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sacral_GardenUITests.swift; sourceTree = "<group>"; };
+		64982BC91CA6ECFC006C4E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64982B9D1CA6ECFB006C4E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64982BB51CA6ECFC006C4E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64982BC01CA6ECFC006C4E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64982B971CA6ECFB006C4E7A = {
+			isa = PBXGroup;
+			children = (
+				64982BA21CA6ECFB006C4E7A /* Sacral Garden */,
+				64982BBB1CA6ECFC006C4E7A /* Sacral GardenTests */,
+				64982BC61CA6ECFC006C4E7A /* Sacral GardenUITests */,
+				64982BA11CA6ECFB006C4E7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64982BA11CA6ECFB006C4E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64982BA01CA6ECFB006C4E7A /* Sacral Garden.app */,
+				64982BB81CA6ECFC006C4E7A /* Sacral GardenTests.xctest */,
+				64982BC31CA6ECFC006C4E7A /* Sacral GardenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64982BA21CA6ECFB006C4E7A /* Sacral Garden */ = {
+			isa = PBXGroup;
+			children = (
+				64982BA31CA6ECFB006C4E7A /* AppDelegate.swift */,
+				64982BA51CA6ECFC006C4E7A /* GameScene.sks */,
+				64982BA71CA6ECFC006C4E7A /* GameScene.swift */,
+				64982BA91CA6ECFC006C4E7A /* GameViewController.swift */,
+				64982BAB1CA6ECFC006C4E7A /* Main.storyboard */,
+				64982BAE1CA6ECFC006C4E7A /* Assets.xcassets */,
+				64982BB01CA6ECFC006C4E7A /* LaunchScreen.storyboard */,
+				64982BB31CA6ECFC006C4E7A /* Info.plist */,
+			);
+			path = "Sacral Garden";
+			sourceTree = "<group>";
+		};
+		64982BBB1CA6ECFC006C4E7A /* Sacral GardenTests */ = {
+			isa = PBXGroup;
+			children = (
+				64982BBC1CA6ECFC006C4E7A /* Sacral_GardenTests.swift */,
+				64982BBE1CA6ECFC006C4E7A /* Info.plist */,
+			);
+			path = "Sacral GardenTests";
+			sourceTree = "<group>";
+		};
+		64982BC61CA6ECFC006C4E7A /* Sacral GardenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64982BC71CA6ECFC006C4E7A /* Sacral_GardenUITests.swift */,
+				64982BC91CA6ECFC006C4E7A /* Info.plist */,
+			);
+			path = "Sacral GardenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64982B9F1CA6ECFB006C4E7A /* Sacral Garden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64982BCC1CA6ECFC006C4E7A /* Build configuration list for PBXNativeTarget "Sacral Garden" */;
+			buildPhases = (
+				64982B9C1CA6ECFB006C4E7A /* Sources */,
+				64982B9D1CA6ECFB006C4E7A /* Frameworks */,
+				64982B9E1CA6ECFB006C4E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sacral Garden";
+			productName = "Sacral Garden";
+			productReference = 64982BA01CA6ECFB006C4E7A /* Sacral Garden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64982BB71CA6ECFC006C4E7A /* Sacral GardenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64982BCF1CA6ECFC006C4E7A /* Build configuration list for PBXNativeTarget "Sacral GardenTests" */;
+			buildPhases = (
+				64982BB41CA6ECFC006C4E7A /* Sources */,
+				64982BB51CA6ECFC006C4E7A /* Frameworks */,
+				64982BB61CA6ECFC006C4E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64982BBA1CA6ECFC006C4E7A /* PBXTargetDependency */,
+			);
+			name = "Sacral GardenTests";
+			productName = "Sacral GardenTests";
+			productReference = 64982BB81CA6ECFC006C4E7A /* Sacral GardenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64982BC21CA6ECFC006C4E7A /* Sacral GardenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64982BD21CA6ECFC006C4E7A /* Build configuration list for PBXNativeTarget "Sacral GardenUITests" */;
+			buildPhases = (
+				64982BBF1CA6ECFC006C4E7A /* Sources */,
+				64982BC01CA6ECFC006C4E7A /* Frameworks */,
+				64982BC11CA6ECFC006C4E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64982BC51CA6ECFC006C4E7A /* PBXTargetDependency */,
+			);
+			name = "Sacral GardenUITests";
+			productName = "Sacral GardenUITests";
+			productReference = 64982BC31CA6ECFC006C4E7A /* Sacral GardenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64982B981CA6ECFB006C4E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Мануэль";
+				TargetAttributes = {
+					64982B9F1CA6ECFB006C4E7A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					64982BB71CA6ECFC006C4E7A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 64982B9F1CA6ECFB006C4E7A;
+					};
+					64982BC21CA6ECFC006C4E7A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 64982B9F1CA6ECFB006C4E7A;
+					};
+				};
+			};
+			buildConfigurationList = 64982B9B1CA6ECFB006C4E7A /* Build configuration list for PBXProject "Sacral Garden" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64982B971CA6ECFB006C4E7A;
+			productRefGroup = 64982BA11CA6ECFB006C4E7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64982B9F1CA6ECFB006C4E7A /* Sacral Garden */,
+				64982BB71CA6ECFC006C4E7A /* Sacral GardenTests */,
+				64982BC21CA6ECFC006C4E7A /* Sacral GardenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64982B9E1CA6ECFB006C4E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64982BA61CA6ECFC006C4E7A /* GameScene.sks in Resources */,
+				64982BB21CA6ECFC006C4E7A /* LaunchScreen.storyboard in Resources */,
+				64982BAF1CA6ECFC006C4E7A /* Assets.xcassets in Resources */,
+				64982BAD1CA6ECFC006C4E7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64982BB61CA6ECFC006C4E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64982BC11CA6ECFC006C4E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64982B9C1CA6ECFB006C4E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64982BA81CA6ECFC006C4E7A /* GameScene.swift in Sources */,
+				64982BAA1CA6ECFC006C4E7A /* GameViewController.swift in Sources */,
+				64982BA41CA6ECFB006C4E7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64982BB41CA6ECFC006C4E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64982BBD1CA6ECFC006C4E7A /* Sacral_GardenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64982BBF1CA6ECFC006C4E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64982BC81CA6ECFC006C4E7A /* Sacral_GardenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64982BBA1CA6ECFC006C4E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64982B9F1CA6ECFB006C4E7A /* Sacral Garden */;
+			targetProxy = 64982BB91CA6ECFC006C4E7A /* PBXContainerItemProxy */;
+		};
+		64982BC51CA6ECFC006C4E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64982B9F1CA6ECFB006C4E7A /* Sacral Garden */;
+			targetProxy = 64982BC41CA6ECFC006C4E7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64982BAB1CA6ECFC006C4E7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64982BAC1CA6ECFC006C4E7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64982BB01CA6ECFC006C4E7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64982BB11CA6ECFC006C4E7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64982BCA1CA6ECFC006C4E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64982BCB1CA6ECFC006C4E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64982BCD1CA6ECFC006C4E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sacral Garden/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AuroraInterplay.Sacral-Garden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64982BCE1CA6ECFC006C4E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sacral Garden/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AuroraInterplay.Sacral-Garden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64982BD01CA6ECFC006C4E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Sacral GardenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AuroraInterplay.Sacral-GardenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sacral Garden.app/Sacral Garden";
+			};
+			name = Debug;
+		};
+		64982BD11CA6ECFC006C4E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sacral GardenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AuroraInterplay.Sacral-GardenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sacral Garden.app/Sacral Garden";
+			};
+			name = Release;
+		};
+		64982BD31CA6ECFC006C4E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Sacral GardenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AuroraInterplay.Sacral-GardenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sacral Garden";
+			};
+			name = Debug;
+		};
+		64982BD41CA6ECFC006C4E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sacral GardenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AuroraInterplay.Sacral-GardenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sacral Garden";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64982B9B1CA6ECFB006C4E7A /* Build configuration list for PBXProject "Sacral Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64982BCA1CA6ECFC006C4E7A /* Debug */,
+				64982BCB1CA6ECFC006C4E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64982BCC1CA6ECFC006C4E7A /* Build configuration list for PBXNativeTarget "Sacral Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64982BCD1CA6ECFC006C4E7A /* Debug */,
+				64982BCE1CA6ECFC006C4E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64982BCF1CA6ECFC006C4E7A /* Build configuration list for PBXNativeTarget "Sacral GardenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64982BD01CA6ECFC006C4E7A /* Debug */,
+				64982BD11CA6ECFC006C4E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64982BD21CA6ECFC006C4E7A /* Build configuration list for PBXNativeTarget "Sacral GardenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64982BD31CA6ECFC006C4E7A /* Debug */,
+				64982BD41CA6ECFC006C4E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64982B981CA6ECFB006C4E7A /* Project object */;
+}
