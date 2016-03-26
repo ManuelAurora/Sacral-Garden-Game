@@ -27,6 +27,12 @@
 		64982C191CA6F1BE006C4E7A /* SGScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982C171CA6F1BE006C4E7A /* SGScene.swift */; };
 		64982C1C1CA6F429006C4E7A /* iOS_Responder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982C1B1CA6F429006C4E7A /* iOS_Responder.swift */; };
 		64982C201CA6F437006C4E7A /* OSX_Responder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982C1E1CA6F437006C4E7A /* OSX_Responder.swift */; };
+		64982C221CA6FA47006C4E7A /* SGExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982C211CA6FA46006C4E7A /* SGExtensions.swift */; };
+		64982C231CA6FA47006C4E7A /* SGExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982C211CA6FA46006C4E7A /* SGExtensions.swift */; };
+		64982C251CA6FA59006C4E7A /* SGResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982C241CA6FA59006C4E7A /* SGResolution.swift */; };
+		64982C261CA6FA59006C4E7A /* SGResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982C241CA6FA59006C4E7A /* SGResolution.swift */; };
+		64982C281CA701B3006C4E7A /* SGGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982C271CA701B3006C4E7A /* SGGameSettings.swift */; };
+		64982C291CA701B3006C4E7A /* SGGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64982C271CA701B3006C4E7A /* SGGameSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +96,9 @@
 		64982C171CA6F1BE006C4E7A /* SGScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGScene.swift; sourceTree = "<group>"; };
 		64982C1B1CA6F429006C4E7A /* iOS_Responder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS_Responder.swift; sourceTree = "<group>"; };
 		64982C1E1CA6F437006C4E7A /* OSX_Responder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSX_Responder.swift; sourceTree = "<group>"; };
+		64982C211CA6FA46006C4E7A /* SGExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGExtensions.swift; sourceTree = "<group>"; };
+		64982C241CA6FA59006C4E7A /* SGResolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGResolution.swift; sourceTree = "<group>"; };
+		64982C271CA701B3006C4E7A /* SGGameSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGGameSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +332,8 @@
 		64982C141CA6F102006C4E7A /* SG-Engine */ = {
 			isa = PBXGroup;
 			children = (
+				64982C211CA6FA46006C4E7A /* SGExtensions.swift */,
+				64982C241CA6FA59006C4E7A /* SGResolution.swift */,
 				64982C1A1CA6F3E7006C4E7A /* SGSceneResponders */,
 				64982C171CA6F1BE006C4E7A /* SGScene.swift */,
 			);
@@ -339,6 +350,7 @@
 		64982C161CA6F11D006C4E7A /* SG-Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				64982C271CA701B3006C4E7A /* SGGameSettings.swift */,
 			);
 			name = "SG-Controllers";
 			sourceTree = "<group>";
@@ -580,6 +592,9 @@
 				64982BA81CA6ECFC006C4E7A /* GameScene.swift in Sources */,
 				64982BAA1CA6ECFC006C4E7A /* GameViewController.swift in Sources */,
 				64982BA41CA6ECFB006C4E7A /* AppDelegate.swift in Sources */,
+				64982C281CA701B3006C4E7A /* SGGameSettings.swift in Sources */,
+				64982C251CA6FA59006C4E7A /* SGResolution.swift in Sources */,
+				64982C221CA6FA47006C4E7A /* SGExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +620,9 @@
 			files = (
 				64982C191CA6F1BE006C4E7A /* SGScene.swift in Sources */,
 				64982C091CA6EED5006C4E7A /* GameScene.swift in Sources */,
+				64982C291CA701B3006C4E7A /* SGGameSettings.swift in Sources */,
+				64982C231CA6FA47006C4E7A /* SGExtensions.swift in Sources */,
+				64982C261CA6FA59006C4E7A /* SGResolution.swift in Sources */,
 				64982C201CA6F437006C4E7A /* OSX_Responder.swift in Sources */,
 				64982BDC1CA6EDFB006C4E7A /* AppDelegate.swift in Sources */,
 			);
